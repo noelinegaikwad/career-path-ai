@@ -1,3 +1,4 @@
+https://noelinegaikwad.github.io/career-path-ai/
 # CareerPath AI — AI-Based Career Recommendation & Roadmap Platform
 
 > **"Know your strengths. Build your path."**  
