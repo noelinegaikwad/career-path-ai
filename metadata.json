@@ -1,0 +1,6 @@
+{
+  "name": "CareerPath AI",
+  "description": "Professional AI-assisted career discovery, profile matching, skill-gap analysis, and personalized learning roadmaps across global occupations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,105 @@
+{
+  "system": "CareerPath AI",
+  "version": "1.0.0",
+  "description": "Standardized JSON seed dataset for bulk occupational taxonomy ingestion.",
+  "categoriesCount": 20,
+  "occupationsSample": [
+    {
+      "occupationCode": "15-1252.00",
+      "title": "Software Developer",
+      "category": "Technology",
+      "subcategory": "Software Engineering",
+      "industries": ["Technology", "Finance", "Healthcare", "E-Commerce"],
+      "difficulty": "Moderate",
+      "durationMonths": 6,
+      "salaryMedian": "$105,000",
+      "requiredSkills": [
+        { "name": "Java", "importance": 5, "minProficiency": "Intermediate" },
+        { "name": "REST APIs", "importance": 5, "minProficiency": "Intermediate" },
+        { "name": "PostgreSQL", "importance": 4, "minProficiency": "Intermediate" },
+        { "name": "Git", "importance": 4, "minProficiency": "Intermediate" }
+      ],
+      "entryRoles": ["Junior Software Developer", "Associate Backend Engineer"]
+    },
+    {
+      "occupationCode": "15-2051.00",
+      "title": "Data Scientist",
+      "category": "AI & Data",
+      "subcategory": "Data Science & Machine Learning",
+      "industries": ["Technology", "Finance", "Healthcare", "Research"],
+      "difficulty": "Advanced",
+      "durationMonths": 8,
+      "salaryMedian": "$118,000",
+      "requiredSkills": [
+        { "name": "Python", "importance": 5, "minProficiency": "Advanced" },
+        { "name": "Statistics", "importance": 5, "minProficiency": "Advanced" },
+        { "name": "Machine Learning", "importance": 5, "minProficiency": "Intermediate" }
+      ],
+      "entryRoles": ["Junior Data Analyst", "Associate Data Scientist"]
+    },
+    {
+      "occupationCode": "29-1141.00",
+      "title": "Registered Nurse",
+      "category": "Healthcare & Medicine",
+      "subcategory": "Clinical Patient Care",
+      "industries": ["Healthcare", "Hospitals", "Community Clinics"],
+      "difficulty": "Moderate",
+      "durationMonths": 12,
+      "salaryMedian": "$82,000",
+      "requiredSkills": [
+        { "name": "Patient Assessment & Triage", "importance": 5, "minProficiency": "Advanced" },
+        { "name": "Pharmacology Administration", "importance": 5, "minProficiency": "Advanced" },
+        { "name": "Anatomy & Physiology", "importance": 5, "minProficiency": "Advanced" }
+      ],
+      "entryRoles": ["Staff Nurse", "Clinical Bedside Nurse"]
+    },
+    {
+      "occupationCode": "17-2141.00",
+      "title": "Mechanical Engineer",
+      "category": "Engineering",
+      "subcategory": "Mechanical & Systems",
+      "industries": ["Manufacturing", "Automotive", "Aerospace"],
+      "difficulty": "Advanced",
+      "durationMonths": 12,
+      "salaryMedian": "$95,000",
+      "requiredSkills": [
+        { "name": "CAD Modeling (SolidWorks/AutoCAD)", "importance": 5, "minProficiency": "Advanced" },
+        { "name": "Thermodynamics & Heat Transfer", "importance": 4, "minProficiency": "Intermediate" },
+        { "name": "Finite Element Analysis (FEA)", "importance": 4, "minProficiency": "Intermediate" }
+      ],
+      "entryRoles": ["Junior Mechanical Designer", "Test & Validation Trainee"]
+    },
+    {
+      "occupationCode": "13-2051.00",
+      "title": "Financial Analyst",
+      "category": "Finance & Economics",
+      "subcategory": "Corporate Finance",
+      "industries": ["Investment Banking", "Corporate Finance", "Asset Management"],
+      "difficulty": "Moderate",
+      "durationMonths": 6,
+      "salaryMedian": "$95,000",
+      "requiredSkills": [
+        { "name": "Financial Modeling", "importance": 5, "minProficiency": "Advanced" },
+        { "name": "Excel", "importance": 5, "minProficiency": "Advanced" },
+        { "name": "Accounting Principles (GAAP/IFRS)", "importance": 4, "minProficiency": "Intermediate" }
+      ],
+      "entryRoles": ["Junior Financial Analyst", "Budget Analyst Trainee"]
+    },
+    {
+      "occupationCode": "47-2111.00",
+      "title": "Industrial Electrician & Automation Tech",
+      "category": "Skilled Trades",
+      "subcategory": "Electrical & Industrial Automation",
+      "industries": ["Manufacturing", "Energy & Utilities", "Logistics"],
+      "difficulty": "Moderate",
+      "durationMonths": 12,
+      "salaryMedian": "$74,000",
+      "requiredSkills": [
+        { "name": "Electrical Schematics & Blueprints", "importance": 5, "minProficiency": "Advanced" },
+        { "name": "PLC Programming (Ladder Logic)", "importance": 4, "minProficiency": "Intermediate" },
+        { "name": "National Electrical Code (NEC)", "importance": 5, "minProficiency": "Advanced" }
+      ],
+      "entryRoles": ["Electrical Apprentice", "Maintenance Technician Trainee"]
+    }
+  ]
+}
